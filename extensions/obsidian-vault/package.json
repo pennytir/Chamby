@@ -1,0 +1,23 @@
+{
+  "name": "@chamby/obsidian-vault",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "openchamber": {
+    "apiVersion": 1,
+    "id": "chamby-obsidian-vault",
+    "name": "Obsidian Vault",
+    "icon": "book",
+    "contributes": {
+      "service": {
+        "entry": "service/main.js",
+        "runtime": "host"
+      },
+      "sessionEvents": {
+        "events": ["session-created", "turn-finished"],
+        "content": true
+      },
+      "capabilities": ["files", "sessions"]
+    }
+  }
+}

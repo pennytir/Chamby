@@ -1,0 +1,20 @@
+{
+  "pinned": {
+    "analogy-rag-in-your-vault": {
+      "version": "1.3.2",
+      "files": {
+        "main.js": "https://github.com/liaocaoxuezhe/obsidian-extension/releases/download/1.3.2/main.js",
+        "manifest.json": "https://github.com/liaocaoxuezhe/obsidian-extension/releases/download/1.3.2/manifest.json",
+        "styles.css": "https://github.com/liaocaoxuezhe/obsidian-extension/releases/download/1.3.2/styles.css"
+      }
+    },
+    "obsidian-livesync": {
+      "version": "1.0.51",
+      "files": {
+        "main.js": "https://github.com/vrtmrz/obsidian-livesync/releases/download/1.0.51/main.js",
+        "manifest.json": "https://github.com/vrtmrz/obsidian-livesync/releases/download/1.0.51/manifest.json",
+        "styles.css": "https://github.com/vrtmrz/obsidian-livesync/releases/download/1.0.51/styles.css"
+      }
+    }
+  }
+}
